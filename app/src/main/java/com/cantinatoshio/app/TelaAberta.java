@@ -28,7 +28,7 @@ public class TelaAberta extends AppCompatActivity {
 
         preco = intent.getExtras().getString("Preco");
         descricao = intent.getExtras().getString("Descricao");
-        imgdoces = intent.getExtras().getInt("ImgDoce");
+        imgdoces = intent.getExtras().getInt("imgdoce");
 
         txtPreco.setText(preco);
         txtDesc.setText(descricao);

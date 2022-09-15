@@ -47,7 +47,7 @@ public class AdapterDoces extends RecyclerView.Adapter<AdapterDoces.ViewHolder>
         holder.titulo.setText(doce.get(position).getTitulo());
         holder.preco.setText(doce.get(position).getPreco());
         holder.imgDoces.setImageResource(doce.get(position).getimgDoces());
-        holder.imgDoces.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -55,7 +55,7 @@ public class AdapterDoces extends RecyclerView.Adapter<AdapterDoces.ViewHolder>
 
                 intent.putExtra("Preco", doce.get(position).getPreco());
                 intent.putExtra("Descricao", doce.get(position).getDescricao());
-                intent.putExtra("imgDoce", doce.get(position).getimgDoces());
+                intent.putExtra("imgdoce",doce.get(position).getimgDoces());
 
                 context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }

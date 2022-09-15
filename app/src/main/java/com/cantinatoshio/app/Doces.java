@@ -41,8 +41,8 @@ public class Doces {
         return doce;
     }
 
-    public void setimgDoces(int imgDoce) {
-        this.doce = imgDoce;
+    public void setimgDoces(int imgdoce) {
+        this.doce = imgdoce;
     }
 }
 
