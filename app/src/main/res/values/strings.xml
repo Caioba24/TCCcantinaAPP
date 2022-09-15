@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cantina Toshio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qtdProduto">0</string>
+</resources>
